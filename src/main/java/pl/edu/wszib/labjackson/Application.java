@@ -14,7 +14,8 @@ public class Application {
         Person person = new Person(
                 "Paweł",
                 "Pustelnik",
-                new Address("Kraków", "00-000", "ul. Testowa", "1")
+                new Address("Kraków", "00-000", "ul. Testowa", "1"),
+                27
         );
         String json = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(person);
         System.out.println(json);

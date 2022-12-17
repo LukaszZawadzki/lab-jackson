@@ -6,6 +6,7 @@ package pl.edu.wszib.labjackson;
 public record Person(
         String firstName,
         String lastName,
-        Address address
+        Address address,
+        Integer age
 ) {
 }
